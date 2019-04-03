@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>es.gva.dadm</groupId>
+    <artifactId>dadm-valenupv</artifactId>
+    <version>01.00.00-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>dadm-valenupv-dto</artifactId>
+  
+  <packaging>jar</packaging>
+
+  <name>Dadm Valenupv - Objetos de transferencia</name>
+  <description>Módulo objetos transferencia datos (DTOs) proyecto Dadm Valenupv</description>
+  
+  <dependencies>
+
+    <!-- Dependencias base utilizadas en los fuentes del módulo -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.javax.persistence</groupId>
+      <artifactId>hibernate-jpa-2.1-api</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <scope>compile</scope>
+    </dependency>
+
+  </dependencies>
+
+</project>

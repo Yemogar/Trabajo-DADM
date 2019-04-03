@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+                      
+        <!-- Tables -->
+        <changeSet id="001-initial-comentario-schema" author="ymolina">
+                <comment>Tabla COMENTARIO</comment>
+                <createTable tableName="COMENTARIO">
+                
+                        <column name="ID" type="BIGINT" remarks="Identificador">
+                                <constraints nullable="false" primaryKey="true" primaryKeyName="COMENTARIO_PK" />
+                        </column>
+                        
+                        <column name="TITULO" type="CHAR(255)" remarks="Titulo del comentario.">
+                                <constraints nullable="false" />
+                        </column>
+                        
+                        <column name="DESCRIPCION" type="CHAR(255)" remarks="Cuerpo del comentario.">
+                                <constraints nullable="false" />
+                        </column>
+                        
+                        <column name="PARADA_ID" type="BIGINT" remarks="Identificador de la parada.">
+                                <constraints nullable="false" />
+                        </column>
+                        
+                        <column name="USUARIO_ID" type="CHAR(255)" remarks="Identificador del usuario.">
+                                <constraints nullable="false" />
+                        </column>
+                </createTable>
+        </changeSet>
+        
+        <!-- Create Sequence -->
+        <changeSet id="001-comentario-createSequence" author="ymolina">
+    <createSequence
+            sequenceName="COMENTARIO_SEQ"
+            startValue="1"/>
+        </changeSet>
+</databaseChangeLog>

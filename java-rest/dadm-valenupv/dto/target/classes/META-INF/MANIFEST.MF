@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Dadm Valenupv - Objetos de transferencia
+Implementation-Version: 01.00.00-SNAPSHOT
+Built-By: Yeray
+Implementation-Vendor-Id: es.gva.dadm
+Build-Jdk: 1.8.0_201
+Implementation-URL: oficinajava/dadm-valenupv/dadm-valenupv-dto
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: DGTIC
+

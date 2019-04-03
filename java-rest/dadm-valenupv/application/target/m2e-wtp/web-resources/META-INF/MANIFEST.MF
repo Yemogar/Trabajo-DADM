@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Application-Name: dadm
+Implementation-Title: Dadm Valenupv - Aplicaciￃﾳn
+Implementation-Version: 01.00.00-SNAPSHOT
+Built-By: Yeray
+Implementation-Vendor-Id: es.gva.dadm
+Implementation-Vendor: DGTIC
+Dependencies: org.hibernate org.hibernate.validator
+Web-Application-Version: 01.00.00-SNAPSHOT
+Component-Name: valenupv
+Web-Application-SVN: http://subversion.gva.es/svn/dadm/valenupv
+Build-Jdk: 1.8.0_201
+Implementation-URL: oficinajava/dadm-valenupv/dadm-valenupv-applicatio
+ n
+Created-By: Maven Integration for Eclipse
+

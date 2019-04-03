@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dadm-valenupv-application">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="dadm-valenupv-model-01.00.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dadm-valenupv-model/dadm-valenupv-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dadm-valenupv-dto-01.00.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dadm-valenupv-dto/dadm-valenupv-dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dadm-valenupv-service-api-01.00.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dadm-valenupv-service-api/dadm-valenupv-service-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dadm-valenupv-service-impl-01.00.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dadm-valenupv-service-impl/dadm-valenupv-service-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dadm-valenupv-repository-01.00.00-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dadm-valenupv-repository/dadm-valenupv-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="dadm-valenupv-application"/>
+        <property name="java-output-path" value="/dadm-valenupv-application/target/classes"/>
+    </wb-module>
+</project-modules>
